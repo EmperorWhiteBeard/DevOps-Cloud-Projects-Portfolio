@@ -115,7 +115,3 @@ Deploy AWS Infrastructure resources as shown in the above architecture.
 # Hit the Star! ⭐
 ***If you are planning to use this repo for learning, please hit the star. Thanks!***
 
-#### Author by [DevCloud Ninjas](https://github.com/DevCloudNinjas)
-
-
-![](https://imgur.com/ZdiaMeo.gif)
