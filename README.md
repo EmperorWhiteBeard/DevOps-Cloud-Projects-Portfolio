@@ -6,8 +6,6 @@
 [stars-shield]: https://img.shields.io/github/stars/devcloudninjas/DevOps-Projects.svg?style=for-the-badge&logo=github&logoColor=white&color=brightgreen
 [stars-url]: https://github.com/devcloudninjas/DevOps-Projects/stargazers
 
-[![Forks][forks-shield]][forks-url]
-[![Stars][stars-shield]][stars-url]
 
 ---
 
