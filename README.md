@@ -1,4 +1,4 @@
-# DevOps/Cloud Projects For Learning by DevCloud Ninjas Tech Community ♐
+# DevOps/Cloud Projects For Learning
 ##### test-branch
 ![DevOps-Projects](https://imgur.com/qimdPIU.png)
 
