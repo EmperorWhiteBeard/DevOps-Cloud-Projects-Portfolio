@@ -6,18 +6,17 @@
 [stars-shield]: https://img.shields.io/github/stars/devcloudninjas/DevOps-Projects.svg?style=for-the-badge&logo=github&logoColor=white&color=brightgreen
 [stars-url]: https://github.com/devcloudninjas/DevOps-Projects/stargazers
 
+---
+
+## Real World Projects for Aspiring DevOps Engineers — Beginner to Advanced
+
+Welcome to the ultimate resource for **learning DevOps through hands-on projects.** This repository is designed for aspiring DevOps engineers of all skill levels — from beginners taking their first steps, to advanced practitioners looking to deepen their expertise.
+
+> **New in this edition:** All cloud infrastructure examples use **[Floci](https://floci.io)** — a free, open-source local cloud emulator — instead of real AWS. No account needed. No credit card. No surprise bills.
 
 ---
 
-## 🚀 Real World Projects for Aspiring DevOps Engineers [Beginner to Advanced]
-
-_Welcome to the ultimate resource for **learning DevOps through hands-on projects!** This repository is designed to cater to aspiring **DevOps engineers** of all skill levels — from beginners taking their first steps, to advanced users looking to deepen their expertise._
-
-> 💡 **New in this edition:** All cloud infrastructure examples use **[Floci](https://floci.io)** — a free, open-source local cloud emulator — instead of real AWS. No account needed. No credit card. No surprise bills.
-
----
-
-## 📦 What is Floci?
+## What is Floci?
 
 [Floci](https://floci.io) is a lightweight, MIT-licensed local cloud emulator that runs AWS-compatible services right on your machine inside Docker. It supports 47 AWS services (S3, RDS, EC2, ECS, ECR, Lambda, SQS, and more), starts in ~24ms, and requires zero authentication tokens.
 
@@ -25,11 +24,11 @@ _Welcome to the ultimate resource for **learning DevOps through hands-on project
 
 | Pain Point (Real AWS) | Floci Solution |
 |---|---|
-| 💸 Unexpected bills | 100% free, always |
-| 🐢 Slow feedback loops | Starts in 24 milliseconds |
-| 🌐 Internet required | Works fully offline |
-| 🔐 IAM keys & account setup | No sign-up, no tokens ever |
-| 😰 Fear of breaking prod | Fully isolated local environment |
+| Unexpected bills | 100% free, always |
+| Slow feedback loops | Starts in 24 milliseconds |
+| Internet required | Works fully offline |
+| IAM keys & account setup | No sign-up, no tokens ever |
+| Fear of breaking prod | Fully isolated local environment |
 
 **Quick Start:**
 ```bash
@@ -46,31 +45,31 @@ aws --endpoint-url=http://localhost:4566 s3 mb s3://my-first-bucket
 
 ---
 
-## 🗂️ Repository Contents
+## Repository Contents
 
 > [!IMPORTANT]
 > This repository contains a comprehensive collection of DevOps projects, each crafted to provide hands-on learning experience. Projects are categorized by skill level so everyone can find a suitable starting point and progressively grow.
 >
-> - 🟢 **Beginner Projects:** Simple, foundational projects introducing basic DevOps concepts and tools.
-> - 🟡 **Intermediate Projects:** More complex projects requiring a solid understanding of DevOps fundamentals.
-> - 🔴 **Advanced Projects:** Challenging projects designed to push your limits and deepen your understanding of sophisticated DevOps practices.
+> - **Beginner Projects:** Simple, foundational projects introducing basic DevOps concepts and tools.
+> - **Intermediate Projects:** More complex projects requiring a solid understanding of DevOps fundamentals.
+> - **Advanced Projects:** Challenging projects designed to push your limits and deepen your understanding of sophisticated DevOps practices.
 
 ---
 
-## 🔗 Integration of DevOps with Other Technologies
+## DevOps and the Broader Ecosystem
 
 > [!NOTE]
 > DevOps doesn't exist in isolation. This repository includes projects that integrate DevOps with several key technologies, showing how they work together in real-world scenarios.
 >
-> - 🤖 **Machine Learning:** Implement DevOps practices to manage and deploy ML models efficiently.
-> - 🌿 **Version Control with Git & GitHub:** Manage code versions and collaborate using Git and GitHub.
-> - ⚙️ **CI/CD Pipelines:** Automate testing and deployment using Jenkins, GitHub Actions, and more.
-> - ☁️ **Local Cloud with Floci:** Deploy and test applications using Floci's AWS-compatible emulator — no cloud account needed.
-> - 🐳 **Containerization (Docker, Kubernetes):** Ensure your applications run consistently across all environments.
+> - **Machine Learning:** Implement DevOps practices to manage and deploy ML models efficiently.
+> - **Version Control with Git & GitHub:** Manage code versions and collaborate using Git and GitHub.
+> - **CI/CD Pipelines:** Automate testing and deployment using Jenkins, GitHub Actions, and more.
+> - **Local Cloud with Floci:** Deploy and test applications using Floci's AWS-compatible emulator — no cloud account needed.
+> - **Containerization (Docker, Kubernetes):** Ensure your applications run consistently across all environments.
 
 ---
 
-## 🛠️ Tech Stack Used Across Projects
+## Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -86,21 +85,21 @@ aws --endpoint-url=http://localhost:4566 s3 mb s3://my-first-bucket
 
 ---
 
-## 📐 Project Scope
+## Project Scope
 
 > [!IMPORTANT]
 > Projects span a wide array of topics within the DevOps domain, each designed for practical, real-world experience:
 >
-> - 🚢 **Automated Deployment:** Automate app deployment using Jenkins pipelines and Docker containers, tested locally with Floci.
-> - 🔄 **CI/CD:** Set up and manage full CI/CD pipelines — code commit → build → test → deploy, all automated.
-> - 🏗️ **Infrastructure as Code (IaC):** Use Terraform against Floci endpoints to manage infrastructure through code without touching real cloud.
-> - 📊 **Monitoring & Logging:** Implement Prometheus and Grafana to track application performance and catch issues early.
-> - 🔒 **Security & Compliance:** Incorporate security scanning (SonarQube, Trivy) into DevOps workflows.
-> - 📈 **Scalability & Performance:** Understand auto-scaling concepts and simulate them locally.
+> - **Automated Deployment:** Automate app deployment using Jenkins pipelines and Docker containers, tested locally with Floci.
+> - **CI/CD:** Set up and manage full CI/CD pipelines — code commit → build → test → deploy, all automated.
+> - **Infrastructure as Code (IaC):** Use Terraform against Floci endpoints to manage infrastructure through code without touching real cloud.
+> - **Monitoring & Logging:** Implement Prometheus and Grafana to track application performance and catch issues early.
+> - **Security & Compliance:** Incorporate security scanning (SonarQube, Trivy) into DevOps workflows.
+> - **Scalability & Performance:** Understand auto-scaling concepts and simulate them locally.
 
 ---
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -130,9 +129,9 @@ Use **Ubuntu WSL** (Windows) or your native terminal on macOS/Linux. All command
 
 ---
 
-## 📁 Project List
+## Project List
 
-### 🟢 Beginner
+### Beginner
 
 | # | Project | Tools Used |
 |---|---|---|
@@ -140,7 +139,7 @@ Use **Ubuntu WSL** (Windows) or your native terminal on macOS/Linux. All command
 | 02 | Static Website Hosting | Floci S3, Docker |
 | 03 | Automated CI Pipeline | Git, Jenkins, Maven |
 
-### 🟡 Intermediate
+### Intermediate
 
 | # | Project | Tools Used |
 |---|---|---|
@@ -148,7 +147,7 @@ Use **Ubuntu WSL** (Windows) or your native terminal on macOS/Linux. All command
 | 05 | Infrastructure as Code | Terraform + Floci |
 | 06 | Monitoring Stack | Prometheus, Grafana, Node Exporter |
 
-### 🔴 Advanced
+### Advanced
 
 | # | Project | Tools Used |
 |---|---|---|
@@ -158,21 +157,21 @@ Use **Ubuntu WSL** (Windows) or your native terminal on macOS/Linux. All command
 
 ---
 
-## 🌟 Why Explore This Repository?
+## Why This Repository?
 
 > [!NOTE]
 >
-> - 🧪 **Hands-on Experience:** Every project is practical. You solve real-world challenges, not toy exercises.
-> - 📈 **Skill Enhancement:** Structured learning path from zero to job-ready DevOps engineer.
-> - 🏭 **Industry Relevance:** Reflects current industry practices — CI/CD, containers, IaC, monitoring, security.
-> - 💰 **Zero Cost:** Thanks to Floci, every cloud-based project runs free on your laptop.
-> - 🤝 **Community Engagement:** Share projects, seek feedback, and collaborate with fellow learners.
+> - **Hands-on Experience:** Every project is practical. You solve real-world challenges, not toy exercises.
+> - **Structured Learning Path:** Goes from zero to job-ready, step by step.
+> - **Industry Relevance:** Reflects current practices — CI/CD, containers, IaC, monitoring, security.
+> - **Zero Cost:** Thanks to Floci, every cloud-based project runs free on your laptop.
+> - **Community:** Share projects, seek feedback, and collaborate with fellow learners.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! If you have a project idea or improvement:
+Contributions are welcome. If you have a project idea or improvement:
 
 1. Fork the repo
 2. Create a branch: `git checkout -b feature/my-project`
@@ -180,14 +179,6 @@ Contributions are welcome! If you have a project idea or improvement:
 4. Push and open a Pull Request
 
 ---
-
-## 📜 License
-
-This repository is open-source and available under the [MIT License](LICENSE).
-
----
-
 <p align="center">
   Made with ❤️ for the DevOps community · <a href="https://floci.io">Powered locally by Floci</a>
 </p>
-
